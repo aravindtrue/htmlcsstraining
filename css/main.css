@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f5f7f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #373C40;
+    line-height: 100%;
+}
+a {
+    color: #4d83aa;
+    text-decoration: none;
+}
+a:hover {
+    color: #3a6583;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+/*------- Header ----------*/
+/* Header top */
+header.ms-header-container {
+    background-color: #373C40;
+}
+.ms-header-top {
+    display: flex;
+    flex-basis: 10rem;
+    align-items: center;
+    padding: 12px 15px;
+}
+.ms-search-container {
+    flex: 1;
+    text-align: center;
+}
+.ms-search-container input {
+    padding: 10px 8px;
+    width: 50%;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-size: 0.8em;
+    outline: none;
+}
+.ms-link-container ul li {
+    display: inline;
+    margin-left: 12px;
+}
+.ms-link-container ul li a {
+    color: #9dd2d8;
+}
+
+/* Header bottom */
+nav.ms-nav-container {
+    background: #6E787F;
+}
+nav.ms-nav-container ul {
+    list-style: none;
+    margin: 0 15px;
+}
+nav.ms-nav-container ul li {
+    display: inline;
+}
+nav.ms-nav-container ul li a {
+    background-color: #6E787F;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: inline-block;
+    min-width: 50px;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+nav.ms-nav-container ul li a:hover {
+    background-color: #A5B4BF;
+    color: #373C40;
+}
+
+/*------- Body ----------*/
+/* Banner */
+.ms-body-container,
+.ms-home-banner {
+    width: 100%;
+}
+
+/* Product highlight */
+.ms-product-highlights {
+    background: #FFF;
+    margin: auto;
+    width: 96%;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 15px; 
+    box-shadow: 0 0 2px #ccc;
+}
+.ms-product-highlights h4 {
+    margin-bottom: 15px;
+}
+.ms-product-highlights ul {
+    list-style: none;
+    text-align: center;
+}
+.ms-product-highlights ul li {
+    display: inline-block;
+    margin: 0 15px;
+    width: 185px;
+    text-align: center;
+    vertical-align: top;
+}
+.ms-product-highlights ul li a {
+    text-decoration: none;
+}
+.ms-product-info {
+    font-size: 0.85em;
+}
+.ms-product-image {
+    width: 150px;
+    height: 150px;
+}
+.ms-product-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.ms-product-title {
+    color: #373C40;
+    font-weight: bold;
+}
+.ms-product-subtitle {
+    color: #40883b;
+}
+
+/*------- Footer ----------*/
+.ms-footer-container {
+    background: #C6D8E5;
+    margin-top: 15px;
+}
+.ms-footer-container.ms-signup-page {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.ms-footer-top {
+    display: flex;
+    padding: 12px;
+}
+.ms-company-info {
+    flex: 1;
+    text-align: center;
+}
+
+/*------- Login & Signup form ----------*/
+.ms-center-page-form {
+    width: 30%;
+    margin: 15px auto;
+}
+.ms-form-container {
+    background: #FFF;
+    box-shadow: 0 0 2px #ccc;
+    padding: 15px;
+    border-radius: 3px;
+}
+.ms-form-container h3 {
+    margin-bottom: 4px;
+}
+.ms-form-row {
+    padding: 8px 0;
+}
+.ms-form-label {
+    font-size: 0.85em;
+    padding-bottom: 4px;
+}
+.ms-form-input .textbox {
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.ms-form-input .submit {
+    background: #c77070;
+    border: 1px solid #804545;
+    padding: 6px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: .9em;
+}
